@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Gallery!!!
+        </title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                background:#E6E6FA;
+            }
+            nav{
+                background: #9370DB;
+                width: 100%;
+                overflow: auto;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            li{
+                float: left;
+            }
+            nav a{
+                width: 120px;
+                display:block;
+                text-decoration: none;
+                text-align: center;
+                background: #9370DB;
+                font-size: 17px;
+                color: white;
+                padding: 20px 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            nav a:hover{
+                background: #D8BFD8;
+                color: black;
+            }
+            .container{
+                max-width: 1200px;
+                margin: auto;
+                background: #f2f2f2;
+                overflow: auto;
+            }
+            .gallery{
+                margin: 5px;
+                border: 1px solid #cccccc;
+                float: left;
+                width: 390px;
+            }
+            .gallery img{
+                width: 100%;
+                height: 400px;
+            }
+            .desc{
+                padding: 15px;
+                text-align: center;
+            }
+            footer{
+                padding: 10px;
+                font-size: 17px;
+                font-weight: bold;
+                text-align: center;
+                background: #9370DB;
+                color: #D8BFD8;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href = '#'> Home </a></li>
+                <li><a href = '#'> News </a></li>
+                <li><a href = '#'> Downlaod </a></li>
+                <li><a href = '#'> Gallery </a></li>
+                <li><a href = '#'> Contact </a></li>
+                <li><a href = '#'>  </a></li>
+            </ul>
+        </nav>
+        <div class="container">
+
+            <div class="gallery">
+                <img src="file/more.jpg" alt="atmo">
+                <div class="desc"> SEA </div>
+            </div>
+
+            <div class="gallery">
+                <img src="file/oblako.jpg" alt="ooo">
+                <div class="desc"> CLOUD </div>
+            </div>
+
+            <div class="gallery">
+                <img src="file/komnatka.jpg" alt="nnn">
+                <div class="desc"> ROOM </div>
+            </div>
+
+            <div class="gallery">
+                <img src="file/krovat.jpg" alt="aaa">
+                <div class="desc"> DREAM </div>
+            </div>
+
+            <div class="gallery">
+                <img src="file/otdyh.jpg" alt="mmm">
+                <div class="desc"> RELAX </div>
+            </div>
+
+            <div class="gallery">
+                <img src="file/bassein.jpg" alt="ttt">
+                <div class="desc"> POOL </div>
+            </div>
+            
+        </div>
+        <footer>
+            kaora
+        </footer>
+    </body>
+</html>
