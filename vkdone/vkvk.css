@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(240, 236, 236);
+}
+
+
+#forInput {
+    margin-left: 24px;
+    padding-top: 4px;
+    background-color: #4A76A8;
+}
+#logo {
+    float: left;
+    background-color: #4A76A8;
+}
+#afterLogo {
+    float: left;
+    background-color: #4A76A8;
+}
+#inputSearch {
+    width: 230px;
+    height: 28px;
+    border-radius: 25px;
+    background-color: #224B7A;
+    margin-left: 130px;
+    margin-bottom: 2px;
+}
+
+#mainBlock { 
+        padding-top: 70px;
+        width: 1200px;
+        height: 1000px;
+        top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+#leftAligned {
+    float: left;
+    width: 60%;
+    height: 960px;
+}
+#head1{
+    text-align: center;
+    font-size: 15px;  
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-weight: lighter;
+}
+#paragraph{
+    text-align: center;
+    font-size: 15px;  
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+#images {
+    margin-left: 180px;
+    width:390px;
+    height: 482px;
+}
+#img1 {
+    height: 482px;
+    float: left;
+    margin-top: -10px;
+}
+#img2 {
+    height: 482px;
+    float: right;
+    margin-left: -30px;
+}
+
+#rightAligned {
+    width: 30%;
+    height: 960px;
+    margin-right: 20px;
+    float: right;
+}
+#login {
+    background-color: white;
+    height: 190px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.size {
+    width: 270px;
+    height: 35px;
+    margin-left: 15px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+    border: 1px  solid #626D7A;
+    border-radius: 7px;
+}
+#logIn {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: #2A5885;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+    color: white;
+}
+
+#signIn {
+    background-color: white;
+    height: 430px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+#signUpTitle {
+    text-align: center;
+    margin-top: 4px;
+}
+#selectDay{
+    width: 60px;
+    height: 33.33px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #626D7A;
+
+}
+#selectMonth{
+    width: 112.5px;
+    height: 33.33px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #626D7A;
+}
+#selectYear{
+    width: 82.5px;
+    height: 33.33px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #626D7A;
+}
+#button1 {
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 270px;
+    height: 35px;
+    background-color: #3fa53f;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+}
+#button2 {
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 270px;
+    height: 35px;
+    background-color: rgb(47, 121, 196);
+    border: none;
+    color: white;
+}
+
+#info {
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}

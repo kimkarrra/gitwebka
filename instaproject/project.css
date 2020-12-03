@@ -1,0 +1,234 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fafafa;
+}
+#concon{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10rem;
+}
+.container{
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+}
+#concon > .container{
+    display: flex;
+    padding: 0 8rem;
+}
+.tell{
+    height: 55rem;
+    background: url("tel.png") center no-repeat;
+    flex: 1;
+}
+
+.action{
+    width: 100%;
+    max-width: 35rem;
+    margin-top: 3rem;
+}
+.action form{
+    background-color: #ffffff;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.logo img{
+    width: 17.5rem;
+    margin-bottom: 2.5rem;
+}
+.action form input{
+    padding: .8rem;
+    margin-bottom: .5rem;
+    border: 2px solid #eee;
+    border-radius: .4rem;
+}
+.loginbut{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: .4rem;
+    margin: 1rem 0 1.5rem;
+    height: 3rem;
+    background-color: #3897f0;
+    cursor: pointer;
+}
+.-or-{
+    font-size: 1.3rem;
+    color:#999999;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.-or-::before,
+.-or-::after{
+    height: 1px;
+    width: 40%;
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    top:50%;
+    transform: translateY(-50%);
+}
+.-or-::before{
+    left: 0;
+}
+.-or-::after{
+    right: 0;
+}
+.face{
+    font-weight: bold;
+    color:#385185;
+    margin-bottom: 2.5rem;
+    font-size:1.4rem;
+}
+.face i{
+    font-size: 2rem;
+    margin-right: .9rem;
+}
+.password-reset{
+    font-size: 1.4rem;
+    color: #909497;
+
+}
+.sign_up{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #262626;
+    padding: 2rem 0;
+    background-color: #fff;
+    border: 2px solid #eeeeee;
+    margin: 1rem 0;
+}
+.sign_up a{
+    color: #3897f0;
+    font-weight: bold;
+}
+.get-the-up{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.get-the-up span{
+    display: block;
+    margin: 2rem 0;
+    color:#262626;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.icons img{
+    max-width: 16rem;
+    cursor: grab;
+    
+}
+.icons img:first-child{
+    margin-right: 9px;
+}
+
+footer{
+    padding: 5rem 0 ;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+.footer-nav ul{
+    display: flex;
+    list-style-position: outside;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.footer-nav ul li{
+    margin-right: 1.6rem;
+    text-indent: -2em;
+    margin-bottom:5px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.footer-nav ul li a{
+    color: #888a8b;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+.note{
+    color: #c0bdbd;
+    margin-top: 10px;
+    margin: inherit;
+}
+
+
+@media (max-width:900px){
+    footer .container{
+        padding: 0 2rem;
+        justify-content: center;
+    }
+    .footer-nav ul{
+        justify-content: center;
+    }
+     .footer-nav ul li{
+         margin-bottom: 2rem;
+     }
+     .footer-nav ul li a{
+         color: #888a8b;
+     }
+    .tell{
+        display: none;
+    }
+    .action{
+        margin: 0 auto;
+    }
+    
+     
+}
+
+@media (max-width: 400px) {
+    .sign_up{
+        background-color: transparent;
+        border: none;
+        margin:4rem 0;
+    }
+    #concon{
+        padding-top: 0;
+    }
+    .action form{
+        background-color: transparent;
+        border: none;
+        padding:0 2rem;
+    }
+    footer{
+        padding-bottom: 3rem;
+    }
+}
