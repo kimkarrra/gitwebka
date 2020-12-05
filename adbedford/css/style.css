@@ -1,0 +1,219 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 14px;
+    color: black;
+    background: url(image/fon.png) center no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.logoim {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+    font-size: 0;
+}
+
+.glavnoe {
+    width: 100%;
+    height: 100hv;
+    background-size: cover;
+    align-content: center;
+}
+
+.container {
+    margin: 0 auto; 
+    padding: 20px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.glavglav {
+    max-height: 80px;
+    max-width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.sustan {
+    color: white;
+    position: relative;
+    font-family: 'IM Fell DW Pica', serif;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.starts {
+    padding-top: 15px;
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 630;
+    text-transform: uppercase;
+    margin-top: -20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.learn{
+    vertical-align: top;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 10px;
+    border: 2px solid #2dada7;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color:#2dada7;
+    width: 140px;
+    height: 45ps;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
+    margin-bottom: 200px;
+}
+
+.text1 {
+    text-align: center;
+    color: dimgrey;
+    font-size: 32px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    color: darkgray;
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align-last: center;
+}
+
+.text3 {
+    color: aquamarine;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Cardo', serif;
+}
+
+.all {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    line-height: 1em;    
+}
+
+
+.fon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.header-inner {
+    width: 100%;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#logoim {    
+    width: 140px;
+    margin: 0;
+    font-size: 0;
+    max-width: 100%;
+}
+
+#logoim a {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#logoim img {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+}
+
+#img {
+    margin-left: -100px;
+    border: 0;
+}
+
+#a {
+    color: rgba(26,26,26,.7);
+}
+
+.nadnad{
+    justify-content: space-between;
+    justify-content: flex-end;      
+    padding: 15px auto; 
+    display: flex;
+    bottom: 50px;
+}
+
+.nav__link {
+    padding: 0 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 9px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 5rem;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.nav__link:hover{
+    color: white;
+    transition: .1s;
+}
+
+.actbut {
+    width: 150px;
+    height: 45px;
+    color: aliceblue;
+    border: 2px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin: -15px;
+    margin-left: -15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .1s;
+}
+
+.actbut:hover {
+    background: #fff;
+    color: #333;
+    transition: .1s;
+}
+
