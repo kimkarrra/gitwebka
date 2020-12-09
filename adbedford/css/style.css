@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .text1 {
+    margin-top: -10px;
     text-align: center;
     color: dimgrey;
     font-size: 32px;
@@ -94,19 +95,47 @@ h1, h2, h3, h4, h5 {
 }
 
 .text2 {
-    color: darkgray;
+    color: rgb(121, 117, 117);
     font-size: 18px;
     font-family: 'Crimson Text', serif;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align-last: center;
 }
 
-.text3 {
-    color: aquamarine;
+.glavglav #text3 {
+    margin-top: 15px;
+    color: rgb(169, 169, 169);
     font-size: 17px;
     font-weight: 400;
     font-family: 'Cardo', serif;
+}
+
+.glavglav #text3 a{
+    color:rgb(46, 146, 121);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Cardo', serif;
+    text-decoration: none;
+}
+
+.learn2{
+    vertical-align: top;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 10px;
+    border: 2px solid #2dada7;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color:#2dada7;
+    width: 140px;
+    height: 45ps;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
 }
 
 .all {

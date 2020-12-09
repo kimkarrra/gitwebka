@@ -1,0 +1,289 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #333;
+    font-size: 14px;
+    color:  rgb(20, 75, 83);
+    background: url(image/receive-the-holy-spirit-6ktm37jv-55780588ff5244e453c841dc40fc5898.jpg)20% 20% no-repeat;
+    background-size: 100%;
+}
+
+*,
+*:before,
+*:after{
+    
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.logoImage {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+    font-size: 0;
+}
+
+.intro {
+    width: 100%;
+    height: 100hv;
+    background-size: cover;
+    align-content: center;
+}
+
+.container {
+    margin: 0 auto; 
+    padding: 20px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.intro__inner {
+    max-height: 80px;
+    max-width: 100%;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.intro__suptitle {
+    color:  rgb(20, 75, 83);
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 3em;
+}
+
+.central__title {
+    padding-top: 20px;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(20, 75, 83);
+    line-height: 3em;
+}
+
+.lmbutton {
+    
+    background-color:rgb(20, 75, 83);
+    width: 140px;
+    height: 45ps;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+    padding: 10px 10px;
+    border: 2px solid rgb(20, 75, 83);
+    border-radius: 40px;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 220px;
+}
+
+.info1 {
+    text-align: center;
+    color: rgb(160, 199, 190);
+    font-size: 32px;
+    font-family: Andale Mono, monospace;
+    font-weight: 400;
+    margin-bottom: 40px;
+    background: rgb(16, 53, 45);
+}
+
+.info2 {
+    color: rgb(20, 75, 83);
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align-last: center;
+    line-height: 2em;
+    margin-bottom: 50px;
+    background: rgb(158, 211, 211, 0.781);
+}
+
+.info3 {
+    color: rgb(20, 75, 83);
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align-last: center;
+    line-height:2em;
+    margin-bottom: 100px;
+    background: rgb(158, 211, 211, 0.781);
+}
+
+.info4 {
+    color: rgb(20, 75, 83);
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align-last: center;
+    line-height:2em;
+    margin-bottom: 75px;
+    background: rgb(158, 211, 211, 0.781);
+}
+
+.info7 {
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(160, 199, 190);
+    font-size: 32px;
+    font-family: Andale Mono, monospace;
+    font-weight: 400;
+    margin-bottom: 50px;
+    background: rgb(16, 53, 45);
+}
+
+.info5 {
+    text-align: center;
+    color: rgb(190, 205, 255);
+    font-size: 26px;
+    font-family: Andale Mono, monospace;
+    font-weight: 400;
+    margin-bottom: 30px;
+    background: rgb(21, 37, 92);
+}
+
+.info6 {
+    color: rgb(21, 37, 92);
+    font-size: 18px;
+    font-style: Courier New, monospace;
+    font-weight: 30;
+    margin-bottom: 15px;
+    text-align-last: center;
+    line-height: 2em;
+    margin-bottom: 20px;
+    background: rgb(190, 205, 255);
+}
+
+.info8 {
+    margin-top: 15%;
+    color: rgb(238, 203, 203);
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align-last: center;
+    line-height: 2em;
+    margin-bottom: 50px;
+    background: rgb(212, 41, 41, 0.849);
+}
+
+.header {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    line-height: 2em;
+    
+}
+.header-inner{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.header-inner {
+    width: 100%;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+#logoImage {    
+    width: 140px;
+    margin: 0;
+    font-size: 0;
+    max-width: 100%;
+}
+
+#logoImage a {
+    display: block;
+}
+
+#logoImage img {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+}
+
+#img {
+    margin-left: -100px;
+    border: 0;
+}
+
+#a {
+    color: rgb(26,26,26,.7);
+}
+
+#p {
+    color: rgb(26,26,26,.7);
+    margin-bottom:100%;
+}
+
+.buttons{
+    padding: 15px auto; 
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;      
+    bottom: 50px;
+}
+
+.nav__link {
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color:  rgb(20, 75, 83);
+    text-decoration: none;
+    transition: .1s;
+}
+
+.nav__link:hover{
+    color: rgb(20, 75, 83);
+    transition: .1s;
+}
+
+.actbut {
+    width: 150px;
+    height: 55px;
+    color:  rgb(20, 75, 83);
+    border: 2px solid  rgb(20, 75, 83);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin: -15px;
+    margin-left: -15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.actbut:hover {
+    background: #fff;
+    color:  rgb(20, 75, 83);;
+    transition: .1s;
+}
+
