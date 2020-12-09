@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(13, 13, 13);
+  font-family: "Lato", sans-serif, helvetica;
+  font-weight: 300;
+}
+
+.u-display-none {
+  display: none;
+}
+
+.u-push-right {
+  float: right;
+}
+
+.heading {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  padding: 0.8rem;
+  border-bottom: 2px solid rgb(28, 28, 28);
+}
+
+.heading h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.stopwatch-container {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.stopwatch {
+  font-size: 12rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.actions {
+  margin-top: 6rem;
+  width: 50rem;
+  position: absolute;
+  left: 30%;
+}
+
+
+.btn {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 400px;
+  font-size: 2rem;
+  border: #fff;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn-default {
+  background-color: rgb(94, 48, 48);
+  color: #fff;
+}
+
+.btn-default:hover {
+  background-color: rgb(134, 100, 100);
+}
+
+.btn-default:active, .btn-default:focus {
+  background-color: rgb(63, 56, 56);
+}
+
+.btn-green {
+  background-color: rgb(73, 197, 79);
+  color: rgb(41, 95, 38);
+}
+
+.btn-green:hover {
+  background-color: rgb(28, 40, 28);
+}
+
+.btn-green:active, .btn-green:focus {
+  background-color: rgb(23, 33, 23);
+}
+
+.btn-red {
+  background-color: rgb(57, 25, 22);
+  color: rgb(226, 74, 59);
+}
+
+.btn-red:hover {
+  background-color: rgb(116, 72, 67);
+}
+
+.btn-red:active,
+.btn-red:focus {
+  background-color: rgb(158, 71, 67);
+}
+
+.btn:disabled {
+  background-color: rgb(20, 20, 20);
+  color: rgb(140, 140, 140);
+}
+
+

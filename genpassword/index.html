@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+	<title>Password generator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+
+ <div class="main">
+
+  <div class="top">
+    <input type = "text" id = "output" readonly = "true">
+    <input type = "text" value = "0" id = "char_num">
+    <button onclick="copyFunction()"><i class="fa fa-clone"></i></button>
+  </div>
+ 		
+
+        <div class="options">
+        	<ul>
+                <li>
+                  <input type="checkbox" id="capcheck">
+                  <label for="capcheck">Capital</label>
+                  <label for="numcheck" id="icon"></label>         
+                </li>
+
+        		<li>
+        		 <input type="checkbox" id="numcheck">		
+                 <label for="numcheck">Numbers</label>
+                 <label for="numcheck" id="icon"></label> 
+                </li>
+
+        		<li>
+        		  <input type="checkbox" id="symcheck">        		    
+                <label for="symcheck">Symbol</label>
+                <label for="numcheck" id="icon"></label> 
+        		</li>
+
+        		<li>
+        		   <input type="checkbox" id="smcheck"> 		     
+                <label for="smcheck">Small</label>
+               <label for="numcheck" id="icon"></label> 
+        		</li>
+        	</ul>
+        </div>
+
+    <button onclick="generate()" id="password_generate">Generate Password</button>
+ </div>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
